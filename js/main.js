@@ -10,7 +10,7 @@ $(function(){
     //これは
     $('.dummy-menu').toggle();
     //以下のように書き換えられる
-    if $('.dummy-menu').attr('class', 'hidden') { // .dummy-menu の class に hidden が含まれていたら
+    if ($('.dummy-menu').attr('class', 'hidden')) { // .dummy-menu の class に hidden が含まれていたら
       $('.dummy-menu').show(); // .dummy-menuを表示
     } else {
       $('.dummy-menu').hide(); // .dummy-menuを隠す
